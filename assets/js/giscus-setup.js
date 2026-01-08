@@ -18,7 +18,7 @@ function determineGiscusTheme() {
 
   let giscusAttributes = {
     src: "https://giscus.app/client.js",
-    "data-repo": "audrenmauplot/abtasty-starter-jekyll",
+    "data-repo": "audrenmauplot/abtasty-landing",
     "data-repo-id": "",
     "data-category": "Comments",
     "data-category-id": "",
