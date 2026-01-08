@@ -1,34 +1,40 @@
 ---
-layout: about
-title: about
+layout: default
+title: Home
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
-
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+nav: false
+horizontal: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<div class="row mb-5">
+    <div class="col-md-12 text-center">
+        <h1 class="display-3 font-weight-bold">Experience Optimization</h1>
+        <p class="lead mt-3">AB Tasty is the fast-growing provider of AI-powered experience optimization solutions.</p>
+        <a href="{{ '/product/' | relative_url }}" class="btn btn-lg text-white mt-4" style="background-color: #3100BF; border-color: #3100BF;">Discover Our Product</a>
+    </div>
+</div>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<div class="row mt-5">
+    <div class="col-md-6">
+        <h2>About Us</h2>
+        <p>
+            We empower brands to build better user experiences and unlock new possibilities. 
+            At AB Tasty, we believe that every digital interaction is an opportunity to learn and grow.
+            Our platform enables marketing and product teams to fast-track innovation and drive revenue.
+        </p>
+    </div>
+    <div class="col-md-6">
+        <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=2940&auto=format&fit=crop" alt="Team working" class="img-fluid rounded shadow-sm">
+    </div>
+</div>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<div class="row mt-5">
+    <div class="col-md-12">
+        <h2>Why Choose AB Tasty?</h2>
+        <ul>
+            <li><strong>AI-Driven Insights</strong>: Leverage the power of AI to find winning variations faster.</li>
+            <li><strong>Seamless Integration</strong>: Connect with your existing tech stack effortlessly.</li>
+            <li><strong>Feature Management</strong>: Control your releases and mitigate risk.</li>
+        </ul>
+    </div>
+</div>
