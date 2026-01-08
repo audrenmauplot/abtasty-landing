@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://alshedivat.github.io/al-folio/sitemap.xml
+Sitemap: https://audrenmauplot.github.io/abtasty-starter-jekyll/sitemap.xml
